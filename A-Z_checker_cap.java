@@ -11,7 +11,7 @@ import java.util.*;
 		if(ch >='A' && ch<='Z') {
 			flag1 = flag1 | (1L<<(ch-'A'));
 	}
-        else if(ch >='a' && ch<='z') {
+        if(ch >='a' && ch<='z') {
             flag2 = flag2 | (1L<<(ch-'a'));
 	}
 
